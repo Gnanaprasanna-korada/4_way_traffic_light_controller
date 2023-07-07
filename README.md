@@ -11,6 +11,7 @@ rst: The reset signal used to initialize the module.
 alert1, alert2: Alert signals indicating specific events like collisions or accidents.
 emrg: Emergency signal indicating the presence of an emergency vehicle.
 sensor_north, sensor_east, sensor_south, sensor_west: Sensors for detecting vehicles approaching from different directions.
+
 Outputs:
 
 NS, NW, EW, EN, SN, SE, WE, WS: Control signals for the traffic lights, representing different directions (North-South, North-West, East-West, etc.).
